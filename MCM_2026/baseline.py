@@ -5,7 +5,7 @@ import numpy as np
 """
 TODO
 1) Define battery drain parameters based on BatteryML data
-2) For baseline only, find the mean lifespan in hours
+2) For baseline only, find the mean battery lifespan in hours
 3) Sensitivity analysis then standardize for each 
 
 Improvements:
