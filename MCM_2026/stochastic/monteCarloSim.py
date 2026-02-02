@@ -37,7 +37,7 @@ def plot_monte_carlo_results(paths):
         plt.plot(timeInHours, paths[i], alpha=0.05, color='orange')
     
     plt.title("Monte Carlo Simulation: SOC Diffusion Paths")
-    plt.xlabel("Time (hours)")
+    plt.xlabel("Time (two years)")
     plt.ylabel("State of Charge (%)")
     plt.xlim([0, T])
     plt.ylim([0, 105])

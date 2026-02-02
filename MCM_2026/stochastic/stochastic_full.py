@@ -81,7 +81,7 @@ for i in range(1, N):
     SOC[i], _ = rk4_step_soc(SOC[i-1], timeInHours[i-1], dt)
 
 # Deterministic SOC for comparison
-SOC_deterministic = 254.149408254 * np.exp(-batteryDrainConstant * timeInHours) - 154.149408254
+SOC_deterministic = 254.149408254 * np.exp(-batteryDrainConstant * timeInHours) - 150
 
 # SOC & TTE
 stateOfChargeAxis = np.linspace(0, 100, 1000)
